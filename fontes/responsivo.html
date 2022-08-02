@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            /* conf. de responsividade */
+            min-width: 320px; /* largura minima */
+            max-width: 800px; /* largura maxima */
+            margin: auto; /* conteudo centralizado */
+            /*
+             O main vai se manter ao centro. Não vai ocupar mais do que 800px de largura e não menos que 320px.
+            */
+
+        }
+        img {
+            width: 100%;
+            /* mantem a imagem 100% de largura, adaptando ao tamanho da tela. */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quidem tenetur saepe culpa corrupti deserunt dolor, quas odit praesentium cumque quos, aliquid quisquam mollitia cupiditate nemo fuga sint blanditiis. Consequatur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptate debitis eligendi nostrum numquam dolorum assumenda, consectetur, animi, sit dicta iste esse doloremque odit suscipit. Perferendis pariatur voluptatem quidem eaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio alias reprehenderit dolorem neque deserunt libero nemo numquam culpa, quos pariatur? Maxime, laudantium quia corrupti et cupiditate doloribus nisi magni vel?</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="../imagens/irina-blok-pq.jpg">
+            <img src="../imagens/irina-blok.jpg" alt="Irina Block">
+        </picture>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam deleniti, suscipit adipisci esse praesentium rerum nesciunt tempora exercitationem aliquam harum molestiae ipsa nostrum at sequi, autem accusantium voluptatum ducimus voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aliquam rem quod, soluta quos hic reprehenderit, inventore expedita molestias eos vero nostrum? Labore ipsam aliquid minima architecto possimus, iure saepe.</p>
+    </main>
+</body>
+</html>
