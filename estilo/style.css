@@ -65,7 +65,7 @@ header > p {
     padding-right: 10px;/* acolchoamento dir do p */
     padding-left: 10px;/* acolchoamento esq do p */
     margin: auto;/* margem auto, centraliza texto */
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
 
 }
