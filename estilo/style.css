@@ -39,11 +39,12 @@ a.externo::after {
     /* after = aparece depois */
     content: '\00A0\1F517'; /* ?? */
 }
+
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5)); /* efeito degradê */
     min-height: 150px; /* altura min. */
     text-align: center; /*centraliza conteudo texto */
-    padding-top: 30px; /* acolchoamento superior do h1 */
+    padding-top: 40px; /* acolchoamento superior do h1 */
 
 }
 
@@ -65,7 +66,7 @@ header > p {
     padding-right: 10px;/* acolchoamento dir do p */
     padding-left: 10px;/* acolchoamento esq do p */
     margin: auto;/* margem auto, centraliza texto */
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
 
 }
